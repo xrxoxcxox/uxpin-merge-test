@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "uxpin:experimental": "uxpin-merge -disable-tunneling"
+    "uxpin:experimental": "uxpin-merge --disable-tunneling"
   },
   "dependencies": {
     "next": "11.1.2",

@@ -11,9 +11,6 @@ module.exports = {
     modules: [__dirname, "node_modules"],
     extensions: ["*", ".ts", ".tsx"],
   },
-  resolveLoader: {
-    modules: [__dirname, "node_modules"]
-  },
   devtool: "source-map",
   module: {
     rules: [
