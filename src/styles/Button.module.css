@@ -1,0 +1,32 @@
+.button {
+  appearance: none;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  color: var(--color-gray-0);
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+.primary {
+  background-color: var(--color-blue-600);
+  border-color: transparent;
+}
+
+.secondary {
+  background-color: var(--color-gray-0);
+  border-color: var(--color-blue-600);
+  color: inherit;
+}
+
+.small {
+  font-size: var(--font-size-body2);
+}
+
+.medium {
+  font-size: var(--font-size-body1);
+}
+
+.large {
+  font-size: var(--font-size-subhead2);
+}
