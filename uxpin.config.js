@@ -8,6 +8,7 @@ module.exports = {
         ]
       }
     ],
+    wrapper: '.uxpin/Wrapper.tsx',
     webpackConfig: 'uxpin.webpack.config.js',
   },
   name: 'UXPin Merge'
